@@ -6,8 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)](../../actions)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nagalakshmi-nimmagadda/MNIST-Optimized-CNN/blob/main/train.py)
-[![Accuracy](https://img.shields.io/badge/Accuracy-99.42%25-brightgreen.svg?style=flat-square)](../../)
+
+[![Accuracy](https://img.shields.io/badge/Accuracy-99.43%25-brightgreen.svg?style=flat-square)](../../)
 [![Parameters](https://img.shields.io/badge/Parameters-13.1K-brightgreen.svg?style=flat-square)](../../)
 [![Training Time](https://img.shields.io/badge/Epochs-15-brightgreen.svg?style=flat-square)](../../)
 

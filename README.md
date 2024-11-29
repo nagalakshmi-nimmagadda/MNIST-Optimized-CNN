@@ -218,13 +218,6 @@ Epoch 15 Loss=0.0030 Batch_Acc=99.94%: 100%|████████████
 
 Test set: Average loss: 0.0197, Accuracy: 9943/10000 (99.43%)
 
-## Model Performance
-
-- Target Accuracy: >99.4%
-- Parameters: ~15k
-- Training Time: <20 epochs
-- Dataset Split: 50k training, 10k testing
-
 ## Implementation Details
 
 ### Key Components:
@@ -251,13 +244,6 @@ The repository includes automated checks through GitHub Actions that verify:
 2. Presence of BatchNormalization
 3. Presence of Dropout
 4. Presence of either GAP or FC layer
-
-## Results
-
-The model achieves:
-- Test Accuracy: >99.4%
-- Parameter Count: ~15k
-- Training Time: 15
 
 ## Contributing
 

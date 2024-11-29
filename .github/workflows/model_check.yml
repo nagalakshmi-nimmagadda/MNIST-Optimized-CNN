@@ -21,28 +21,5 @@ jobs:
         
     - name: Check model requirements
       run: |
-        python -c "
-        import torch
-        from model import Net
-        
-        model = Net()
-        
-        # Check parameter count
-        total_params = sum(p.numel() for p in model.parameters())
-        assert total_params < 20000, f'Model has {total_params} parameters, should be less than 20000'
-        
-        # Check for BatchNorm
-        has_bn = any(isinstance(m, torch.nn.BatchNorm2d) for m in model.modules())
-        assert has_bn, 'Model should use BatchNormalization'
-        
-        # Check for Dropout
-        has_dropout = any(isinstance(m, torch.nn.Dropout) for m in model.modules())
-        assert has_dropout, 'Model should use Dropout'
-        
-        # Check for GAP or FC
-        has_gap = any(isinstance(m, torch.nn.AvgPool2d) for m in model.modules())
-        has_fc = any(isinstance(m, torch.nn.Linear) for m in model.modules())
-        assert has_gap or has_fc, 'Model should use either Global Average Pooling or Fully Connected layer'
-        
-        print('All checks passed!')
-        " 
+        echo "Running - model parameter checks..."
+        python check_model_local.py

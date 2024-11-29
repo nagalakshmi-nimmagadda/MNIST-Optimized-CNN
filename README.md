@@ -11,7 +11,7 @@
 [![Parameters](https://img.shields.io/badge/Parameters-13.1K-brightgreen.svg?style=flat-square)](../../)
 [![Training Time](https://img.shields.io/badge/Epochs-15-brightgreen.svg?style=flat-square)](../../)
 
-A highly optimized PyTorch implementation of MNIST digit classification achieving 99.42% accuracy with less than 20k parameters.
+A highly optimized PyTorch implementation of MNIST digit classification
 
 ## 🎯 Performance Metrics
 
